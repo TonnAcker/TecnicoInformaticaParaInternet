@@ -25,6 +25,7 @@ programa
 				escreva("O número ",mistur[i]," é impar\n")
 			}
 		}
+		//EXERCICIO COM GAMBIARRA!!!
 	}
 }
 /* $$$ Portugol Studio $$$ 
