@@ -7,7 +7,6 @@
  *	Não se preocupe com isso por enquanto.
  * 
 */
-
 programa
 {
 	funcao inicio()
