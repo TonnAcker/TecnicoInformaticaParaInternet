@@ -9,13 +9,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro number[10],i,mult
+		inteiro number[10],i,numXcinco[10]
 		escreva("Digite 10 números de sua escolha: ")
 		para(i=0;i<10;i++){
 			leia(number[i])
 		}para(i=0;i<10;i++){
-			mult=number[i]*5
-			escreva("\nMultiplicando ",number[i]," por 5 resulta em: ",mult)
+			numXcinco[i]=number[i]*5
+		}para(i=0;i<10;i++){
+			escreva("\nMultiplicando ",number[i]," por 5 resulta em: ",numXcinco[i])
 		}
 	}
 }
@@ -24,9 +25,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 571; 
+ * @POSICAO-CURSOR = 618; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {number, 12, 10, 6}-{i, 12, 21, 1}-{mult, 12, 23, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
