@@ -24,7 +24,8 @@ programa
 			a=a+2
 		}para(a=0;a<20;a++){
 		escreva(" ",vetFN[a])
-		}
+		} 
+		//EXERCICIO COM GAMBIARRA!!!
 	}
 }
 /* $$$ Portugol Studio $$$ 
