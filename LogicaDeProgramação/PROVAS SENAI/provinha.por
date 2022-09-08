@@ -23,8 +23,28 @@ A opção Sair é a única que permite encerrar a execução do programa. Sendo 
 	
 	funcao inicio()
 	{
-		real numero[12]
-		inteiro opcao
+		real cruise[12]
+		inteiro opcao=0 
+		escreva("--WONDERLAND CRUISE--\n• Menu de opções\n1. Consultar\t2. Efetuar reserva\t3. Sair do sistema\nDIGITE O NÚMERO REFERENTE A SUA ESCOLHA PARA CONTINUAR: ")
+		enquanto(opcao <3){
+			leia(opcao)
+			se(opcao==1){
+				limpa()
+				escreva("--INFORMAÇÕES DO CRUZEIRO--\n• Cruzeiros disponiveis: ")
+				escreva("\n• Origem: Maceió/Brasil\t• Destino: Montreal/Canadá\n")
+				escreva("\nDIGITE 2 PARA EFETUAR A RESERVA\t")
+				escreva("\nDIGITE 3 PARA ENCERRAR A SEÇÃO")
+				escreva("\nESCOLHA UMA OPÇÃO PARA CONTINUAR: ")
+			}senao se(opcao==2){
+				escreva("--EFETUAR RESERVA--\n")
+				
+			}senao se(opcao==3){
+				escreva("VOCÊ ENCERROU O SEÇÃO!!")
+				opcao++
+			}senao{
+				escreva("ERRO -- DIGITE UM NÚMERO VÁLIDO!!\n")
+			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -32,9 +52,9 @@ A opção Sair é a única que permite encerrar a execução do programa. Sendo 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1312; 
+ * @POSICAO-CURSOR = 1631; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {opcao, 27, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
