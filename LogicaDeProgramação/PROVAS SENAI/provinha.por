@@ -1,5 +1,6 @@
 programa
-{	
+{
+	
 /*A empresa JMCW especializada em desenvolvimento de software, contratou você, técnico em informática para internet, para implementar um algoritmo que irá integrar um
 software que está sendo desenvolvido por eles. Este algoritmo, que consiste na implementação de um cadastro de viagens marítimas (numero, origem e destino), e o número de
 lugares disponíveis para 12 cruzeiros (um vetor para cada dado) e deve contar com as seguintes características:
@@ -23,8 +24,28 @@ A opção Sair é a única que permite encerrar a execução do programa. Sendo 
 	
 	funcao inicio()
 	{
-		real numero[12]
-		inteiro opcao
+		real cruise[12]
+		inteiro opcao=0 
+		escreva("--WONDERLAND CRUISE--\n• Menu de opções\n1. Consultar\t2. Efetuar reserva\t3. Sair do sistema\nDIGITE O NÚMERO REFERENTE A SUA ESCOLHA PARA CONTINUAR: ")
+		enquanto(opcao <3){
+			leia(opcao)
+			se(opcao==1){
+				limpa()
+				escreva("--INFORMAÇÕES DO CRUZEIRO--\n• Cruzeiros disponiveis: ")
+				escreva("\n• Origem: Maceió/Brasil\t• Destino: Montreal/Canadá\n")
+				escreva("\nDIGITE 2 PARA EFETUAR A RESERVA\t")
+				escreva("\nDIGITE 3 PARA ENCERRAR A SEÇÃO")
+				escreva("\nESCOLHA UMA OPÇÃO PARA CONTINUAR: ")
+			}senao se(opcao==2){
+				escreva("--EFETUAR RESERVA--\n")
+
+			}senao se(opcao==3){
+				escreva("VOCÊ ENCERROU O SEÇÃO!!")
+				opcao++
+			}senao{
+				escreva("ERRO -- DIGITE UM NÚMERO VÁLIDO!!\n")
+			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
