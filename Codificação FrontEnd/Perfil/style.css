@@ -1,3 +1,9 @@
 body{
     font: normal 15pt Arial;
 }
+.perfheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
