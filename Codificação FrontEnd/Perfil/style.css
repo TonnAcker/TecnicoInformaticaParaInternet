@@ -1,10 +1,9 @@
 body{
     font: normal 15pt Arial;
-    color: rgb(255, 255, 255);
-    background-color: rgb(36, 36, 36);
-    
 }
-.txtlink{
-    color: rgb(225, 203, 255); 
-    text-decoration: none;
+.perfheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
