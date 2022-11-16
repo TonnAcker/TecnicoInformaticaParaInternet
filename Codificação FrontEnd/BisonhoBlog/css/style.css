@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem; /*1 rem == 16px*/
+    background-color: #e6e6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+/*INICIO DO HEADER - CABEÇALHO*/
+#area-cabecalho{ 
+    padding: 0.9rem;
+    background-color: #f7b600;
+    text-align: center;
+}
+
+#area-logo,#area-menu{
+    padding: 0.7rem;
+}
+.logo-branco{
+    color: #fff;
+}
+#area-menu a{
+    text-decoration: none;
+    border-radius: 0.7px;
+}
+#area-menu a:link, #area-menu a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+/*NAV EFEITO HOVER LINKS DAS ANCORAS*/
+#area-menu a:hover{
+    background-color: #fff;
+    color: #f7b600;
+    border-radius: 0.7rem;
+}
+
+#area-principal{
+    width: 57.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#area-postagens{
+    width: 41.25rem;
+}
+#area-lateral{
+    width: 15rem;
+    margin-left: 1.2rem;
+}
+.postagem{
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+.postagem-imagem{
+    width: 39rem;
+    border-radius: 0.4rem;
+}
+.postagem-titulo{
+    color: #f7b600;
+}
+.postagem-data{
+    font-size: 0.8rem;
+    display: block;
+    padding-bottom: 0.8rem;
+}
+.postagem p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+}
+.postagem a{
+    text-decoration: none;
+}
+.postagem a:visited,.postagem a:link{
+    color: #f7b600;
+}
+.postagem a:hover{
+    text-decoration: underline;
+}
+.texto-postagem-lateral p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.texto-postagem-lateral a{
+    text-decoration: none;
+}
+.texto-postagem-lateral a:visited,.postagem a:link{
+    color: #f7b600;
+}
+.texto-postagem-lateral a:hover{
+    text-decoration: underline;
+}
+.conteudo-lateral{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    width: 15rem;
+    border-radius: 0.3rem;
+}
+.conteudo-lateral-titulo{
+    padding: 0.4rem;
+    background-color: #a7a7a7;
+    border-radius: 0.3rem;
+}
+.navegacao-lateral a{
+    text-decoration: none;
+    color: #f7b600;
+    display: flex;
+    padding: 0.1rem;
+}
+.conteudo-lateral a{
+    text-decoration: none;
+    color: #f7b600;
+    display: flex;
+}
+.conteudo-lateral a:hover{
+    text-decoration: underline;
+    color: #c28e00;
+}
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+footer{
+    background-color: #b4b4b4;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX TESTE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    background-color: #161616;
+    font: normal 15pt arial;
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+}.container{
+    border-radius: 12px;
+    background-color: #1d1d1d;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}.bloco1,.bloco2,.bloco3{
+    margin: 0.2rem;
+    display: flex;
+
+}
+.bloco1{
+    background-color: rgb(123, 196, 196);
+    border: 1px solid rgba(228, 228, 228, 0.479);
+    border-radius: 10px;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+
+}.bloco2{
+    background-color: rgb(179, 136, 207);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+}.bloco3{
+    background-color: rgb(216, 138, 138);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 10px;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="bloco1">1</div>
+        <div class="bloco2">2</div>
+        <div class="bloco3">3</div>
+    </main>
+</body>
+</html>
