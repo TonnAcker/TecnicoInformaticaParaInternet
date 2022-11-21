@@ -1,0 +1,92 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* APLICANDO COR DE FUNDO NO CORPO HTML */
+body{
+    background: #ddd;
+}
+/* APLICANDO ESPAÇAENTO INTERNO DO CABEÇALHO */
+header, section{
+    padding: 5rem;
+}
+
+header{
+    background-color: #2196f3;
+}
+
+main{
+    /* CONTEÚDO IRÁ FICAR CENTRALIZADO */
+    margin: auto;
+    /* APLICANDO A PROPRIEDADE GRID */
+    display: grid;
+    /* APLICANDO ESPAÇO ENTRE AS SECTIONS */
+    grid-row-gap: 1rem;
+    /* APLICANDO COLUNAS E LINHAS NA PÁGINA */
+    grid-template-areas: 
+    'video-player video-player'
+    'video-info   video-info  '
+    'actions      actions     '
+    'channel      subscribe   '
+    'up-next      up-next     '
+    ;
+}
+
+.video-player{
+     background-color: #ffeb3b;
+     grid-area: video-player;
+}
+
+.video-info{
+    background-color: #e91e63;
+    grid-area: video-info;
+}
+
+.actions{
+    background-color: #03a9f4;
+    grid-area: actions;
+}
+
+.channel{
+    background-color: #673ab7;
+    grid-area: channel;
+}
+
+.subscribe{
+    background-color: #8bc34a;
+    grid-area: subscribe;
+}
+
+.ad{
+    background-color: #ff5722;
+    grid-area: ad;
+
+    /* DISPLAY:NONE ESCONDE UM ELEMENTO */
+    /* DISPLY:NONE */
+}
+
+.up-next{
+    background-color: #3f51b5;
+    grid-area: up-next;
+}
+
+@media screen and (max-width:700px){
+    .ad{
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px){
+    main{
+        max-width: 1200px;
+
+        grid-template-areas: 
+            'video-player video-player ad     '
+            'video-player video-player up-next'
+            'video-info   actions      up-next'
+            'channel      subscribe    up-next'
+        ;
+    }
+}
