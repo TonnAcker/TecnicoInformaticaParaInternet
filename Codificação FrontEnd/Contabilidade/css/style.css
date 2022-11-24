@@ -111,3 +111,14 @@
     font-size: 0.875rem;
     font-weight: bold;
 }
+.nav-button button{
+    border: none;
+    background-color: var(--dark-blue-300);
+    border-radius: 8px;
+    color: var(--gray-200);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.6rem 1rem;
+
+    transition: all .4s;
+}
