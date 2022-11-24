@@ -57,6 +57,15 @@
     border-radius: 50%;
     display: flex;
 }
+.menu-info p{
+    font-weight: bold;
+}
+.menu-item button{
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
 
 
 /*FIM DO HEADER*/
