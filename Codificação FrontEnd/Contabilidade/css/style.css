@@ -1,0 +1,17 @@
+:root{
+    --white:#fff;
+    --black: #000;
+
+    --dark-blue-800: #212733;
+    --dark-blue-600: #1f242e;
+    --dark-blue-500: #2c303b;
+    --dark-blue-400: #292d39;
+    --dark-blue-300: #2b3240;
+
+    --blue-400: #44557a;
+
+    --gray-500: #4e4e4c;
+    --gray-400: #ccc5bb;
+    --gray-300: #cdc6bc;
+    --gray-200: #ebe6de;
+}
