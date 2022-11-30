@@ -300,3 +300,85 @@ li {
 }
 
 /*PORTFOLIO*/
+
+.faleconosco{
+    background-color: var(--dark-blue-400);
+    padding: 2.5rem;
+}
+.comp-faleconosco{
+    display: flex;
+    gap: 2rem;
+}
+.form{
+width: 60%;
+}
+.form label{
+    display: block;
+    color: var(--white);
+    font-size: 1rem;
+}
+.input-name,.email-tel{
+    margin-bottom: 1rem;
+}
+.form-contato input,.form-contato textarea,.input-email input,.input-tel input{
+    width: 100%;
+    background-color: var(--dark-blue-400);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--blue-400);
+    color: var(--white);
+    padding: 0.6rem 0;
+    font-size: 1rem;
+}
+.form .email-tel{
+    display: flex;
+}
+.input-email, .input-tel{
+    width: 48%;
+}
+.input-tel{
+    margin-left: auto;
+}
+.input-message textarea{
+    resize: none;
+}
+.btn-submit{
+    margin-top: 1.3rem;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--blue-400);
+    background-color: var(--white);
+    border: none;
+
+    transition: all .3s;
+}
+.btn-submit:hover{
+    color: var(--white);
+    background-color: var(--blue-400);
+    border: none;
+}
+.fale-text{
+    width: 48%;
+    color: var(--white);
+}
+.fale-info{
+    font-size: 1rem;
+}
+.fale-text h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.fale-text p{
+    line-height: 1.6;
+}
+.fale-info > p{
+    margin-bottom: 3rem;
+}
+.fale-info span{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
