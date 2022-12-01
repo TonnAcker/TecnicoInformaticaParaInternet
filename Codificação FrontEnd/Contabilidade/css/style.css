@@ -382,3 +382,35 @@ width: 60%;
     font-size: 2rem;
     font-weight: bold;
 }
+.footer{
+    display: flex;
+    gap: 7rem;
+    padding: 2rem;
+}
+.footer .navbar-brand a span{
+    font-size: .7rem;
+}
+.footer-info{
+    padding: 1rem;
+}
+.footer-info p{
+    font-size: 0.9rem;
+    margin-bottom: .3rem;
+}
+.footer-info span{
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--black);
+}
+.find-me{
+    height: 10vh;
+    text-align: center;
+}
+.find-me a{
+    color: #000;
+    display: inline-block;
+    padding: .4rem;
+    text-decoration: none;
+}
